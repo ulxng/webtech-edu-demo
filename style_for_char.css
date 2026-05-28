@@ -1,0 +1,54 @@
+body {
+      font-family: 'montserrat', Arial, sans-serif;
+      background: linear-gradient(to bottom, #5fbeee, #95e2f5);
+    }
+
+.line{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.box{
+    width: 45%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.box p{
+    margin: 0 0;
+    margin: 20px;
+}
+
+.text{
+    font-weight: bold;
+}
+.small_text{
+    font-size: small;
+}
+
+.box.gr {
+    background-color: rgb(242, 242, 242);
+}
+
+.container.gr {
+    background-color: rgb(242, 242, 242);
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    padding-left: 50px;
+}
