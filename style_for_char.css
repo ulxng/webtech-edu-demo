@@ -12,21 +12,23 @@ body {
 }
 
 .container{
-    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px solid rgb(199, 199, 199);
+    gap: 40px;
+    justify-content: space-between;
+    padding: 0 50px;
 }
-.box{
-    width: 45%;
-    margin: 0 auto;
+
+.box {
+    flex-basis: 40%;
     line-height: 1.5;
+    flex-grow: 1;
 }
 
 .box p{
-    margin: 0 0;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .text{
@@ -45,10 +47,25 @@ body {
     border-bottom: 1px solid rgb(199, 199, 199);
 }
 
+.container:last-of-type {
+    border-bottom: none;
+}
+
 h1{
     text-align: center;
 }
 
 h2{
     padding-left: 50px;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: #2E3192;
+    font-weight: 700;
+}
+
+.link:hover {
+    color: #7f83e4;
 }
